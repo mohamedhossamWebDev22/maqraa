@@ -2,6 +2,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 body .navBar {
   display: flex;
@@ -42,6 +43,8 @@ body .main .landing-page {
   justify-content: space-between;
   padding-left: 2%;
   padding-right: 2%;
+  padding-top: 8%;
+  padding-bottom: 5%;
 }
 body .main .landing-page .txt {
   direction: rtl;
@@ -49,14 +52,102 @@ body .main .landing-page .txt {
 body .main .landing-page .txt h1 {
   color: green;
 }
+body .main .landing-page .txt button {
+  border: 0;
+  background: green;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+body .main .landing-page .txt button a {
+  color: white;
+  text-decoration: none;
+}
 body .main .first {
   background: green;
   color: white;
   text-align: center;
+  padding-top: 8%;
+  padding-bottom: 6%;
 }
 body .main .first h1 {
   text-decoration: underline;
 }
 body .main .first img {
   border-radius: 50px;
+}
+body .main .first .services {
+  text-align: center;
+}
+body .main .first .services .cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .main .first .services .cards .card {
+  background: white;
+  padding: 2%;
+  box-shadow: 0px 4px 8px #555;
+  border-radius: 15px;
+}
+body .main .first .services .cards .card p {
+  color: black;
+  font-weight: bold;
+}
+body .main .first button {
+  border: 0;
+  background: white;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  margin-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+body .main .first button a {
+  color: black;
+  text-decoration: none;
+}
+body .main .sec {
+  padding-top: 5%;
+  text-align: center;
+}
+body .main .sec h1 {
+  color: green;
+  font-size: 40px;
+}
+body .main .sec p {
+  font-size: 20px;
+  margin: 0;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+body .main .sec button {
+  border: 0;
+  background: green;
+  color: white;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  box-shadow: 0px -55px 30px #b9b9b9;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+body .main .sec button a {
+  color: white;
+  text-decoration: none;
+}
+body footer {
+  background: green;
+  color: white;
+  border: 5px solid greenyellow;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
