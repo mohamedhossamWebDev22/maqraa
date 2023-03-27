@@ -10,8 +10,10 @@ body .navBar {
   justify-content: space-between;
   padding: 0;
   margin: 0;
+  z-index: 999999;
   box-shadow: 0px 4px 16px black;
   border-radius: 0;
+  position: relative;
 }
 body .navBar .logo {
   background: green;
@@ -29,4 +31,32 @@ body .navBar .link {
 body .navBar .active {
   -webkit-text-decoration: 2px underline green;
           text-decoration: 2px underline green;
+}
+body .main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+body .main .landing-page {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+body .main .landing-page .txt {
+  direction: rtl;
+}
+body .main .landing-page .txt h1 {
+  color: green;
+}
+body .main .first {
+  background: green;
+  color: white;
+  text-align: center;
+}
+body .main .first h1 {
+  text-decoration: underline;
+}
+body .main .first img {
+  border-radius: 50px;
 }/*# sourceMappingURL=style.css.map */

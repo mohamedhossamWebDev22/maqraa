@@ -17,9 +17,13 @@ body{
     padding: 0;
     margin: 0;
 
+    z-index: 999999;
+
     box-shadow: 0px 4px 16px black;
 
     border-radius: 0;
+
+    position:relative;
     .logo{
       background: green;
       color: white;
@@ -41,6 +45,38 @@ body{
     }
     .active{
       text-decoration: 2px underline green;
+    }
+  }
+  .main{
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-direction: column;
+    .landing-page{
+      display: flex;
+      
+      justify-content:space-between;
+
+      padding-left: 2%;
+      padding-right: 2%;
+      .txt{
+        direction: rtl;
+        h1{
+          color: green  ;
+        }
+      }
+    }
+    .first{
+      background: green;
+      color: white;
+
+      text-align: center;
+      h1{
+        text-decoration: underline;
+      }
+      img{
+        border-radius: 50px;
+      }
     }
   }
 }
