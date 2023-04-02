@@ -1,23 +1,24 @@
-$arabic-font:system-ui, -apple-system, 
-BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
-Ubuntu, Cantarell, 
-'Open Sans', 'Helvetica Neue', sans-serif;
+$arabic-font: system-ui, -apple-system,
+  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell,
+  'Open Sans', 'Helvetica Neue', sans-serif;
 
-body{
+body {
   font-family: $arabic-font;
 
   padding: 0;
   margin: 0;
 
   scroll-behavior: smooth;
-  .navBar{
+
+  .navBar {
     display: flex;
 
     flex-direction: row-reverse;
-    
+
     align-items: center;
     justify-content: space-between;
-    
+
     padding: 0;
     margin: 0;
 
@@ -27,11 +28,12 @@ body{
 
     border-radius: 0;
 
-    position:relative;
-    .logo{
+    position: relative;
+
+    .logo {
       background: green;
       color: white;
-      
+
       padding: 0;
 
       padding-left: 2%;
@@ -40,37 +42,43 @@ body{
       font-size: 18px;
     }
 
-    .link{
+    .link {
       color: black;
-      
+
       font-size: 15px;
 
       text-decoration: none;
     }
-    .active{
+
+    .active {
       text-decoration: 2px underline green;
     }
   }
-  .main{
+
+  .main {
     display: flex;
-    
+
     justify-content: space-evenly;
     flex-direction: column;
-    .landing-page{
+
+    .landing-page {
       display: flex;
-      
-      justify-content:space-between;
+
+      justify-content: space-between;
 
       padding-left: 2%;
       padding-right: 2%;
       padding-top: 8%;
       padding-bottom: 5%;
-      .txt{
+
+      .txt {
         direction: rtl;
-        h1{
-          color: green  ;
+
+        h1 {
+          color: green;
         }
-        button{
+
+        button {
           border: 0;
 
           background: green;
@@ -84,7 +92,8 @@ body{
 
           padding-top: 3%;
           padding-bottom: 3%;
-          a{
+
+          a {
             color: white;
 
             text-decoration: none;
@@ -92,7 +101,8 @@ body{
         }
       }
     }
-    .first{
+
+    .first {
       background: green;
       color: white;
 
@@ -100,37 +110,20 @@ body{
 
       padding-top: 8%;
       padding-bottom: 6%;
-      h1{
+
+      h1 {
         text-decoration: underline;
       }
-      img{
+
+      img {
         border-radius: 50px;
       }
-      .services{
+
+      .services {
         text-align: center;
-        .cards{
-          display: flex;
-
-          justify-content: space-around;
-          align-items: center;
-
-          .card{
-            background: white;
-
-            padding: 2%;
-            box-shadow: 0px 4px 8px #555;
-
-            border-radius: 15px;
-
-            p{
-              color: black;
-
-              font-weight: bold;
-            }
-          }
-        }
       }
-      button{
+
+      button {
         border: 0;
 
         background: white;
@@ -146,31 +139,36 @@ body{
 
         padding-top: 1%;
         padding-bottom: 1%;
-        a{
+
+        a {
           color: black;
 
           text-decoration: none;
         }
       }
     }
-    .sec{
+
+    .sec {
       padding-top: 5%;
 
       text-align: center;
-      h1{
-        color: green;  
-        
+
+      h1 {
+        color: green;
+
         font-size: 40px;
       }
-      p{
+
+      p {
         font-size: 20px;
 
         margin: 0;
-        
+
         padding-right: 2%;
         padding-left: 2%;
       }
-      button{
+
+      button {
         border: 0;
 
         background: green;
@@ -188,7 +186,8 @@ body{
 
         padding-top: 1%;
         padding-bottom: 1%;
-        a{
+
+        a {
           color: white;
 
           text-decoration: none;
@@ -196,7 +195,36 @@ body{
       }
     }
   }
-  footer{
+
+  .cards {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 2%;
+    .card {
+      background: white;
+
+      padding: 2%;
+      box-shadow: 0px 4px 8px #555;
+
+      border-radius: 15px;
+
+      text-align: center;
+      p {
+        color: black;
+
+        font-weight: bold;
+      }
+
+      &:hover{
+        box-shadow: 0px 0px 50px black;
+      }
+    }
+  }
+
+  footer {
     background: green;
     color: white;
 

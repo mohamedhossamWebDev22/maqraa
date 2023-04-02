@@ -83,21 +83,6 @@ body .main .first img {
 body .main .first .services {
   text-align: center;
 }
-body .main .first .services .cards {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-body .main .first .services .cards .card {
-  background: white;
-  padding: 2%;
-  box-shadow: 0px 4px 8px #555;
-  border-radius: 15px;
-}
-body .main .first .services .cards .card p {
-  color: black;
-  font-weight: bold;
-}
 body .main .first button {
   border: 0;
   background: white;
@@ -144,6 +129,26 @@ body .main .sec button {
 body .main .sec button a {
   color: white;
   text-decoration: none;
+}
+body .cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2%;
+}
+body .cards .card {
+  background: white;
+  padding: 2%;
+  box-shadow: 0px 4px 8px #555;
+  border-radius: 15px;
+  text-align: center;
+}
+body .cards .card p {
+  color: black;
+  font-weight: bold;
+}
+body .cards .card:hover {
+  box-shadow: 0px 0px 50px black;
 }
 body footer {
   background: green;

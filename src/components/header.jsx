@@ -10,11 +10,11 @@ const Header = () => {
           <h1>التيسير</h1>
         </div>
         
-        <NavLink className='link' to="./">الرئيسية</NavLink>
+        <NavLink className='link' to="/">الرئيسية</NavLink>
           
-        <NavLink className='link' to="./programmes">خدماتنا</NavLink>
+        <NavLink className='link' to="/programmes">خدماتنا</NavLink>
 
-        <NavLink className='link' to="./about">من نحن؟</NavLink>
+        <NavLink className='link' to="/about">من نحن؟</NavLink>
       </div>
     </>
   );
