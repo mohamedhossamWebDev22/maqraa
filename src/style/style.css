@@ -130,6 +130,15 @@ body .main .sec button a {
   color: white;
   text-decoration: none;
 }
+body .main .aboutUs {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+body .main .aboutUs p {
+  font-weight: bold;
+  font-size: 25px;
+}
 body .cards {
   display: flex;
   justify-content: space-around;

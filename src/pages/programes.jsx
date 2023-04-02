@@ -1,8 +1,5 @@
 import React from 'react';
 
-import { NavLink } from "react-router-dom";
-
-
 import Header from '../components/header';
 import Footer from '../components/footer';
 
@@ -29,7 +26,6 @@ const Pro = () => {
         </div>
         <div className="cards">
           <Card pic={icon} title="السيرة النبوية"/>
-          
         </div>
       </div>
 
